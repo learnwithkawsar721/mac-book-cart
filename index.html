@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book</title>
+    <!-- ================ Bootstrap css ============= -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- ================== Custom Css =================== -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main class="container mt-5">
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="product-img">
+                    <img src="./assets/images/mac.png" alt="product" class="w-100 p-4">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="product-discription">
+                    <h2 class="product-title">
+                        Customize Your Blue 24-inch iMac with Apple M1 Chip.
+                    </h2>
+                    <p class="product-text">
+                        Apple M1 Chip With 8-core CUP with 4 Performance Cores and 4 efficiency cores 7-core GPU and
+                        16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/USB 4 prots Magic
+                        Mouse Magic Keyboard-Us English
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3 class="parce-title pb-3">Memory</h3>
+                    <div class="memory-item">
+                        <button id="8gb-memory" class="btn">8GB unifiend Memory</button>
+                        <button id="16gb-memory" class="btn">16GB unifiend Memory</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <h3 class="parce-title pb-3">Storage</h3>
+                    <div class="storage-item">
+                        <button id="256gb" class="btn">256GB SSD storage</button>
+                        <button id="512gb" class="btn">512GB SSD storage</button>
+                        <button id="1tb" class="btn">1TB SSD storage</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <h3 class="parce-title pb-3">Choose your delivery option</h3>
+                    <div class="free-cost">
+                        <button id="free" class="btn">Friday, Aug 25 FREE Prime Delivery</button>
+                        <button id="charge" class="btn">Friday, Aug 21 Delivery charge $20</button>
+                    </div>
+                </div>
+                <div class="product-item product-table">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Best Price</td>
+                                        <td>$<span id="best-cost">1299</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Extra Memory Cost</td>
+                                        <td>$<span id="memory-cost">0</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Extra Storage Cost</td>
+                                        <td>$<span id="storage-cost">0</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Delivery charge</td>
+                                        <td>$<span id="charge-cost">0</span></td>
+                                    </tr>
+                                    <hr>
+                                    <tr>
+                                        <td>Total Price</td>
+                                        <td>$<span id="subTotal">1299</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="cupon">
+                    <h5 class="cupon-title">Add Pomo Code</h5>
+                    <div class="row g-3">
+                        <div class="col-auto">
+                            <input id="cupon-fild" type="text" class="form-control">
+                        </div>
+                        <div class="col-auto">
+                            <button id="apply" class="btn btn-primary">Apply</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="total-valu">
+                    <h1 class="total-price">
+                        Total: $<span id="total">1299</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- ===================== Bootstrap js ================= -->
+    <script src="./assets/js/bootstrap.bundl.js"></script>
+    <!-- ================== App js =================== -->
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
