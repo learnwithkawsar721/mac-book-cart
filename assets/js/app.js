@@ -81,18 +81,16 @@ document.querySelector('.free-cost').addEventListener('click', function (event) 
 /*=============================
 =========== Discount Cupon
 ===============================*/
-const inputFild = document.getElementById('cupon-fild');
-document.getElementById('apply').addEventListener('click', function () {
+document.getElementById("apply").addEventListener("click", function () {
+  const inputFild = document.getElementById("cupon-fild");
 
-    if (isNaN(inputFild.value)) {
-
-        if (inputFild.value == 'stevekaku') {
-
-            const discount = (Number(subTotal.innerText) *20)/100;
-            total.innerText = Number(subTotal.innerText)-discount;
-            inputFild.value = '';
-       }
+  if (isNaN(inputFild.value)) {
+    if (inputFild.value == "stevekaku") {
+      const discount = (Number(subTotal.innerText) * 20) / 100;
+      total.innerText = Number(subTotal.innerText) - discount;
+      inputFild.value = "";
     }
+  }
 
-    inputFild.value = '';
-})
+  inputFild.value = "";
+});
